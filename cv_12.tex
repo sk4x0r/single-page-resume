@@ -1,0 +1,172 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy CV/Resume
+% XeLaTeX Template
+% Version 1.0 (5/5/2014)
+%
+%
+%Original template was downloaded from:
+%http://www.LaTeXTemplates.com
+%
+% Original author:
+% Debarghya Das (http://www.debarghyadas.com)
+% With extensive modifications by:
+% Vel (vel@latextemplates.com)
+% And
+% Santosh Patil (https://github.com/sk4x0r)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[12pt, a4paper]{deedy-resume}
+\usepackage{setspace}
+\usepackage{parallel,enumitem}
+\newcommand\textbox[1]{%
+  \parbox{\textwidth}{#1}%
+}
+
+\begin{document}
+\leavevmode \\
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+\lastupdated % Print the Last Updated text at the top right
+\namesection{}{Santosh Patil}{ % Your name
+\href{mailto:santoshpatil@outlook.com}{santoshpatil@outlook.com} \\ +91-8095-876816 % Your contact information
+}
+\section{Summary}
+\textbox{
+\-\ \-\ \-\ \-\ Computer Science graduate from \textbf{IIT Bombay} with interest in numbers, algorithms and artificial intelligence. Currently solving \textbf{scalability} problems around payment system at \textbf{Flipkart}. Fascinated by but still noob in \textbf{statistics} and \textbf{machine learning}. Seeking an opportunity in startup like environment where I can solve challenging problems and make the world a better place to live.\\}
+\noindent\makebox[\linewidth]{\rule{\paperwidth}{0.4pt}}
+%----------------------------------------------------------------------------------------
+%	LEFT COLUMN
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.29\textwidth} % The left column takes up 29% of the text width of the page
+
+%------------------------------------------------
+% Education
+%------------------------------------------------
+\setstretch{1.2}
+\section{Education}
+
+\subsection{Indian Institute of Technology, Bombay}
+
+\descript{M.Tech in Computer Science and Engineering}
+\location{July 2012 - June 2014 \\ CGPA: 8.14 / 10}
+
+\sectionspace % Some whitespace after the section
+
+\subsection{Government College of Engineering, Amravati}
+\descript{B.Tech in Computer Science and Engineering}
+\location{July 2006 - May 2010 \\ CGPA: 6.76 / 10}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Links
+%------------------------------------------------
+
+\section{Links}
+\textbf{LinkedIn:}//\href{https://www.linkedin.com/in/sk4x0r}{sk4x0r} \\
+\textbf{Github:}//\href{https://github.com/sk4x0r}{sk4x0r} \\
+\textbf{StackOverflow:}//\href{http://stackoverflow.com/users/717417}{santosh-patil} \\
+\textbf{Goodreads:}//\href{http://goodreads.com/santoshpatil}{santoshpatil}
+
+\sectionspace
+
+%------------------------------------------------
+% Technologies
+%------------------------------------------------
+
+\section{Technologies}
+\location{Proficient:}
+Java \textbullet{} MySQL \textbullet{} Redis
+\\
+\location{Intermediate:}
+Python \textbullet{} C/C++ 
+\\
+\location{Exploring:}
+R \textbullet{} Hadoop \textbullet{} Hive \textbullet{} Go
+\sectionspace
+\section{Tools}
+Git \textbullet{} Maven \textbullet{} Latex
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+
+\end{minipage} % The end of the left column
+\hfill \vrule \hfill
+%
+%----------------------------------------------------------------------------------------
+%	RIGHT COLUMN
+%----------------------------------------------------------------------------------------
+%
+\begin{minipage}[t]{0.68\textwidth} % The right column takes up 68% of the text width of the page
+\setstretch{1.1}
+%------------------------------------------------
+% Experience
+%------------------------------------------------
+
+\section{Experience}
+\runsubsection{Flipkart}
+\descript{| Software Development Engineer}
+
+\location{July 2014 – till date | Bangalore, IN}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+At Flipkart, I have been working on solving scalability problems in \textbf{payment systems}. The work focuses around \textbf{scaling} the existing payment systems to handle heavy load. For the last `Big Billion Day' sale, system was scaled to handle \textbf{10X} load of the existing peak capacity.
+I have also worked on abstracting \textbf{sharding} at application level to achieve high availability as well as high throughput via \textbf{horizontal scaling}.
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+
+\runsubsection{NVIDIA}
+\descript{| GPU QA Engineer}
+
+\location{July 2010 – March 2011 | Pune, IN}
+\vspace{\topsep}
+At Nvidia, I was working on \textbf{quality assurance} of \textbf{GPU drivers} to be released for Laptops. The responsibilities included: \\~\\
+\begin{tightitemize}
+\item Executing hardware and software test plans for functional, stability and performance \textbf{testing}.
+\item Capturing and \textbf{debugging} issues and work alongside development teams to fix issues.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%------------------------------------------------
+% Research
+%------------------------------------------------
+\section{Academic Project}
+\runsubsection{Solving Boolean Satisfiability Problem Using Orthonormal Expansion}
+\descript{| Master's Thesis Project}
+\location{June 2013 – June 2014 | IIT Bombay, IN}
+\vspace{\topsep}
+Worked with \textbf{\href{https://www.ee.iitb.ac.in/web/faculty/homepage/vrs}{Prof V. R. Sule}} to develop and implement a new approach to solve \textbf{boolean satisfiability} problem (SAT). The approach uses \textbf{orthonormal expansion} and \textbf{parallel processing} to solve SAT.
+
+\sectionspace % Some whitespace after the section
+
+
+%------------------------------------------------
+
+% Scholastic Achievements
+%------------------------------------------------
+
+\section{Scholastic Achievements} 
+\vspace{\topsep}
+\begin{tightitemize}
+\item Stood \textbf{34th among 156,000} students who appeared for the \textbf{GATE} (Graduate Aptitude Test in Engineering) \textbf{2012}
+\item Received the prestigious \textbf{NTS} (National Talent Search) Scholarship award in \textbf{2004}. Only top 1000 students across the nation were awarded the scholarship.
+\item Was awarded Maharashtra Talent Search Scholarship in 2002 and 2003.
+\end{tightitemize}
+
+\sectionspace % Some whitespace after the section
+
+%----------------------------------------------------------------------------------------
+\end{minipage} % The end of the right column
+\end{document}
